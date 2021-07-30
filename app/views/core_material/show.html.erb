@@ -1,0 +1,22 @@
+<div>
+  <h1 class="centered"><%= @material.prettyM %></h1>
+</div>
+
+<div class="centered">
+  <%= link_to("Make a Recipe", new_recipe_path(:for => @material)) %>
+</div><br>
+
+<div class="floating centered">
+  <% if @can_craft.size > 0 %>
+    <div>
+      <table>
+        <tr><th>Can Craft:</th></tr>
+        <% @can_craft.each do |material| %>
+          <tr><td>
+            <%= link_to(material.name.prettyM, material) %>
+          </td></tr>
+        <% end %>
+      </table>
+    </div>
+  <% end %>
+</div>

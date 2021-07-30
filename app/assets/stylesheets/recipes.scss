@@ -1,0 +1,132 @@
+// Place all the styles related to the recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+div.floating {
+    & div {
+        display: inline-block;
+        vertical-align: top;
+    }
+    width: 100%;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+  
+table tr:hover {background-color: #ddd;}
+  
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+table.form {
+    & th {text-align: right}
+    & td {text-align: left}
+    & td[colspan] {text-align: center}
+    width: auto;
+    margin: auto;
+}
+
+.centered {
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+.core {
+    color: red;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+a {
+    color: black;
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+.gray {
+    background-color: #dddddd;
+}
+
+ul {background-color: #dddddd}
+ul ul {background-color: #eeeeee}
+ul ul ul {background-color: #dddddd}
+ul ul ul ul {background-color: #eeeeee}
+ul ul ul ul ul {background-color: #dddddd}
+ul ul ul ul ul ul {background-color: #eeeeee}
+ul ul ul ul ul ul ul {background-color: #dddddd}
+ul ul ul ul ul ul ul ul {background-color: #eeeeee}
+ul ul ul ul ul ul ul ul ul {background-color: #dddddd}
+ul ul ul ul ul ul ul ul ul ul {background-color: #eeeeee}
+ul ul ul ul ul ul ul ul ul ul ul {background-color: #dddddd}
+ul ul ul ul ul ul ul ul ul ul ul ul {background-color: #eeeeee}
+ul ul ul ul ul ul ul ul ul ul ul ul ul {background-color: #dddddd}
+ul ul ul ul ul ul ul ul ul ul ul ul ul ul {background-color: #eeeeee}
+ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul {background-color: #dddddd}
+ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul {background-color: #eeeeee}
+ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul {background-color: #dddddd}
+
+
+// ul {
+//     & ul {
+//         list-style-position: inside;
+//         & ul {
+//             & ul {
+//                 & ul {
+//                     & ul {
+//                         background-color: #ffffff;
+//                     }
+//                     background-color: #eeeeee;
+//                     & li {background-color: #ffffff;}
+//                 }
+//                 background-color: #dddddd;
+//                 & li {background-color: #eeeeee;}
+//             }
+//             background-color: #cccccc;
+//             & li {background-color: #dddddd;}
+//         }
+//         background-color: #bbbbbb;
+//         & li {background-color: #cccccc;}
+//     }
+//     background-color: #aaaaaa;
+//     & li {background-color: #bbbbbb;}
+// }
+
+// ul {
+//     & ul {
+//         & ul {
+//             & ul {
+//                 & ul {
+//                     & li {background-color: #eeeeee}
+//                 }
+//                 & li {background-color: #dddddd}
+//             }
+//             & li {background-color: #cccccc}
+//         }
+//         & li {background-color: #bbbbbb}
+//     }
+//     & li {background-color: #aaaaaa}
+//     background-color: #aaaaaa;
+// }

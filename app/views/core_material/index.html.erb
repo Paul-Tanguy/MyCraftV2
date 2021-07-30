@@ -1,0 +1,15 @@
+<div>
+  <table>
+    <tr>
+      <th>Core Materials</th>
+      <th>Mod</th>
+    </tr>
+    <% @materials.each do |material| %>
+      <% mod, mat = material.split(":").map(&:pretty) %>
+      <tr>
+        <td><%= link_to(mat, core_material_path(:id => 0, :material => material)) %></td>
+        <td><%= mod %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>

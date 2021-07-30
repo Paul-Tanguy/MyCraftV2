@@ -1,0 +1,8 @@
+<% materials.each do |material| %>
+  <% if material[0].is_a?(Array) %>
+    <%= material[0] %>
+    <%= render("my_test", materials: material[1]) %>
+  <% else %>
+    <%= material %>
+  <% end %>
+<% end %>

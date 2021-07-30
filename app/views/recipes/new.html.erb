@@ -1,0 +1,12 @@
+<div class="centered">
+  <h1>New Recipe</h1>
+  <h2><%= @for.prettyM %></h2>
+</div>
+
+<div class="centered">
+  <%= render 'form', recipe: @recipe %>
+</div>
+
+<div>
+  <%= link_to 'Back', recipes_path %>
+</div>

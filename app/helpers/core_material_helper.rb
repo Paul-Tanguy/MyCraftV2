@@ -1,0 +1,2 @@
+module CoreMaterialHelper
+end

@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  materials: MyText
+  quantity: 1.5
+  extra: MyString
+  priority: 1
+  image: MyText
+  mod: MyString
+  machine: MyString
+
+two:
+  name: MyString
+  materials: MyText
+  quantity: 1.5
+  extra: MyString
+  priority: 1
+  image: MyText
+  mod: MyString
+  machine: MyString
